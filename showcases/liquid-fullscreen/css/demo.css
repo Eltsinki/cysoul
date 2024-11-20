@@ -1,0 +1,165 @@
+
+
+@font-face {
+	font-family: MonumentExtended-Regular;
+	src: url(../fonts/MonumentExtended-Regular.otf);
+}
+
+@font-face {
+	font-family: MonumentExtended-Ultrabold;
+	src: url(../fonts/MonumentExtended-Ultrabold.otf);
+}
+
+
+
+body {
+	height: 100vh;
+	overflow: hidden;
+	color: #fff;
+}
+
+body.light .social-text li,
+body.light .slid-text .cont h1{
+	color: #fff;
+}
+
+body.light .slid-text .cont h6{
+	color: #eee;
+}
+
+body.light .slid-text .cont .stroke{
+	-webkit-text-stroke: 1px #fff;
+}
+
+/* Fade effect */
+.js body {
+	opacity: 0;
+	transition: opacity 0.3s;		
+}
+
+.js body.render {
+	opacity: 1;
+}
+
+@keyframes loaderAnim {
+	to {
+		opacity: 1;
+		transform: scale3d(0.5,0.5,1);
+	}
+}
+
+.hidden {
+	position: absolute;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+}
+
+main {
+	position: relative;
+	width: 100%;
+}
+
+.social-text{
+	position: absolute;
+	right: 0;
+	top: 50%;
+	z-index: 999;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transform: translateX(40%) rotate(-90deg);
+}
+
+.social-text li{
+	padding: 0 20px;
+}
+
+.content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0 auto;
+}
+
+.slid-text{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+}
+
+.slid-text:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #101010;
+	opacity: .4;
+	z-index: -1;
+}
+
+.slid-text .swiper-slide-active .cont h1 {
+	-webkit-transition: all 0s;
+	-o-transition: all 0s;
+	transition: all 0s;
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+  }
+  
+  .slid-text .swiper-slide-active .cont h1 .char {
+	-webkit-animation: fadeInUp 0.3s cubic-bezier(0.3, 0, 0.7, 1) both;
+	animation: fadeInUp 0.3s cubic-bezier(0.3, 0, 0.7, 1) both;
+	-webkit-animation-delay: calc(40ms * var(--char-index));
+	animation-delay: calc(40ms * var(--char-index));
+  }
+  
+  .slid-text .swiper-slide-active .cont h6 {
+	opacity: 1;
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+  }
+  
+  .slid-text .cont .splitting .whitespace {
+	width: 10px;
+  }
+  
+  .slid-text .cont h1 {
+	font-size: 60px;
+	font-family: "MonumentExtended-Ultrabold";
+	letter-spacing: 4px;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity .5s,
+   visibility .5s;
+	-o-transition: opacity .5s,
+   visibility .5s;
+	transition: opacity .5s,
+   visibility .5s;
+  }
+  
+  .slid-text .cont h6 {
+	color: #eee;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 13px;
+	margin-top: 10px;
+	opacity: 0;
+	-webkit-transform: translateY(40px);
+	-ms-transform: translateY(40px);
+	transform: translateY(40px);
+	-webkit-transition: all .7s;
+	-o-transition: all .7s;
+	transition: all .7s;
+  }
