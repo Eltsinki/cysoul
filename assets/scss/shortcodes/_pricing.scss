@@ -1,0 +1,70 @@
+
+
+/* ====================== [ Start Pricing ] ====================== */
+
+.price{
+
+    .price-table{
+
+        .item{
+            border: 1px solid rgba(255,255,255,.1);
+            padding: 0;
+
+            .type{
+                padding: 15px;
+                background: rgba(255,255,255,.03);
+                text-align: center;
+            }
+
+            .content{
+                padding: 0 50px 0 50px;
+            }
+
+            .offer{
+
+                li{
+                    margin-bottom: 20px;
+
+                    &:last-of-type{
+                        margin-bottom: 0;
+                    }
+
+                    &.dis{
+                        opacity: .4;
+                    }
+
+                    .icon{
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+            .order{
+
+                a{
+                    display: block;
+                    background: rgba(255,255,255,.03);
+                    padding: 15px;
+                    transition: all .4s;
+
+                    &:hover{
+                        background: $main-color;
+                    }
+                }
+            }
+
+            &.active{
+
+                .order{
+                    
+                    a{
+                        background: $main-color;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ====================== [ End Pricing ] ====================== */

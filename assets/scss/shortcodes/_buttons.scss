@@ -1,0 +1,73 @@
+
+
+/* ====================== [  Start Button Style ] ====================== */
+
+.butn{
+	border: 1px solid transparent;
+	transition: all .4s;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+
+.butn-xlg{
+	padding: 0 30px;
+	min-height: 60px;
+	line-height: 60px;
+	min-width: 220px;
+}
+
+.butn-lg{
+	padding: 0 30px;
+	min-height: 55px;
+	line-height: 55px;
+	min-width: 190px;
+}
+
+.butn-md{
+	padding: 0 25px;
+	min-height: 50px;
+	line-height: 50px;
+	min-width: 170px;
+}
+
+.butn-sm{
+	padding: 0 20px;
+	min-height: 45px;
+	line-height: 45px;
+	min-width: 160px;
+}
+
+.butn-xsm{
+	padding: 0 20px;
+	min-height: 40px;
+	line-height: 40px;
+	font-size: 13px;
+}
+
+.butn-bord{
+	border: 1px solid #fff;
+}
+
+.butn-bg{
+	background: #fff;
+	color: #23262d;
+}
+
+.butn-no-radius{
+	border-radius: 0;
+}
+
+.butn-sm-radius{
+	border-radius: 4px;
+}
+
+.butn-md-radius{
+	border-radius: 14px;
+}
+
+.butn-rounded{
+	border-radius: 30px;
+}
+
+/* ====================== [ End Button Style ] ====================== */

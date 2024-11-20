@@ -1,0 +1,105 @@
+
+
+/* ====================== [ Start services ] ====================== */
+
+.sim-serv,
+.box-serv{
+
+	.icons{
+		position: relative;
+		display: inline-block;
+
+		.shad{
+			position: absolute;
+			left: 7px;
+			top: 7px;
+			opacity: .05;
+		}
+	}
+}
+
+.serv-box{
+
+	.serv-item{
+		padding: 60px;
+		border: 1px solid rgba(255,255,255,.05);
+	}
+}
+
+.serv-tags{
+
+    .main-marq{
+
+        .item{
+            border-radius: 30px;
+            border: 1px solid rgba(255,255,255,.2);
+            padding: 20px 30px;
+            margin: 0 15px;
+
+            h4{
+                line-height: 1;
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+.serv-bg-box{
+
+	.row{
+		position: relative;
+		z-index: 3;
+
+		.chan-img{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+
+			.img{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				opacity: 0;
+				transition: all .4s linear;
+				background-size: 115%;
+				background-position: center center;
+
+				&.current{
+					opacity: 1;
+					background-size: 100%;
+				}
+			}
+		}
+	}
+
+	.item{
+		color: #fff;
+		padding: 50px;
+		min-height: 80vh;
+		border-right: 1px solid rgba(255,255,255,.2);
+		position: relative;
+		z-index: 2;
+		transition: all .4s linear;
+
+		&:last-of-type{
+			border: 0;
+		}
+
+		&.current{
+			background: rgba(255,255,255,.05);
+			backdrop-filter: blur(4px);
+		}
+
+		p{
+			color: #ddd !important;
+			margin-top: 20px;
+			display: none;
+		}
+	}
+}
+
+/* ====================== [ End services ] ====================== */

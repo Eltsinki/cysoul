@@ -1,0 +1,78 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Cinzel
+    Theme URI: http://
+    Description: Creative Agency & Portfolio
+    Author: ThemesCamp
+    Author URI: http://themeforest.net/user/ThemesCamp
+    Version: 1.0
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+
+== Table Of Content
+
+    |--- BASE
+
+        |- utility
+        |- typography
+        |- helper classes
+
+    |--- SHORTCODES
+
+        |- extra
+        |- overlay
+        |- section-heading
+        |- buttons
+        |- navbar
+        |- sliders
+        |- intro
+        |- feature-box
+        |- clients
+        |- counter
+        |- portfolio
+        |- process
+        |- progress-bar
+        |- tabs
+        |- team
+        |- testimonials
+        |- blog
+        |- contact-form
+        |- footers
+
+    |--- BASE
+
+        |- Colors Skin
+
+
+    |--- BASE
+
+        |- responsive
+	
+
+
+---------------------------------------------------------------- */
+
+
+
+// Initialize
+@import "variables.scss";
+
+// bootstrap rest
+@import "utility.scss";
+
+// Core CSS
+@import "typography.scss";
+
+// Shortcodes
+@import "shortcodes.scss";
+
+// Helper classes
+@import "helper.scss";
+
+// Colors
+@import "colors-skin.scss";
+
+// responsive
+@import "responsive.scss";

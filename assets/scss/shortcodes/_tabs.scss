@@ -1,0 +1,105 @@
+
+/* ====================== [ Start tabs & list ] ====================== */
+
+.simpl-bord{
+
+	&.nav-tabs{
+		padding-bottom: 30px;
+		margin-bottom: 30px;
+	}
+
+	.nav-item{
+		margin-right: 50px;
+
+		&:last-of-type{
+			margin-right: 0;
+		}
+	}
+
+	.nav-link{
+		padding: 0;
+		border: 0;
+		color: inherit;
+		background: transparent !important;
+		font-weight: 500;
+		cursor: pointer;
+
+		&.active{
+			font-weight: 600;
+			color: $main-color;
+		}
+	}
+}
+
+.list{
+	
+	&.bord-left{
+		padding-left: 20px;
+		border-left: 4px solid #eee;
+		border-radius: 5px 0 0 5px;
+	}
+
+	&.shad{
+		
+		.box{
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0px 20px 50px rgba(0,0,0,0.1);
+		}
+	}
+}
+
+.check-list{
+
+	li{
+
+		.icon{
+			width: 35px;
+			height: 35px;
+			line-height: 35px;
+			text-align: center;
+			border-radius: 50%;
+			font-size: 12px;
+		}
+	}
+}
+
+.bult-list{
+
+    li{
+        padding-left: 30px;
+        position: relative;
+
+        &:after{
+            content: '';
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: #999;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+        }
+    }
+}
+
+.dash-list{
+
+    li{
+        padding-left: 30px;
+        position: relative;
+
+        &:after{
+            content: '';
+            width: 10px;
+            border-bottom: 1px solid #999;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+        }
+    }
+}
+
+/* ====================== [ Start tabs & list ] ====================== */

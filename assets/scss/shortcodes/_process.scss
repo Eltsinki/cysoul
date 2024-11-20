@@ -1,0 +1,41 @@
+
+/* ====================== [ Start services ] ====================== */
+
+.process-line{
+    position: relative;
+
+    &:after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        border-bottom: 1px solid rgba(255,255,255,.2);
+    }
+
+    .item{
+        position: relative;
+        padding-top: 80px;
+        padding-right: 40px;
+
+        &:after{
+            content: '';
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #777;
+            position: absolute;
+            top: -5px;
+            left: 0;
+            z-index: 2;
+        }
+
+        .numb{
+            position: absolute;
+            top: 30px;
+            right: 30px;
+        }
+    }
+}
+
+/* ====================== [ End services ] ====================== */

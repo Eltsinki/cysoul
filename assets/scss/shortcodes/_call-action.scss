@@ -1,0 +1,48 @@
+
+
+/* ====================== [ Start Call To Action  ] ====================== */
+
+.call-action-simp{
+
+	.bord-box{
+		position: relative;
+		
+		&:after{
+			content: '';
+			position: absolute;
+			border-left: 1px solid rgba(255,255,255,.05);
+			border-right: 1px solid rgba(255,255,255,.05);
+			top: -200px;
+			bottom: -200px;
+			left: 15px;
+			right: 15px;
+			z-index: 4;
+			pointer-events: none;
+		}
+
+		.row{
+			padding: 0 15px;
+		}
+	}
+}
+
+.call-box-half{
+	position: relative;
+
+	&:after{
+		content: '';
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 50%;
+		border-left: 1px solid #eee;
+		opacity: .05;
+	}
+
+	.item{
+		min-height: 400px;
+		padding: 100px 0;
+	}
+}
+
+/* ====================== [ End Call To Action  ] ====================== */

@@ -1,0 +1,54 @@
+
+/* ====================== [ Start accordion ] ====================== */
+
+.accordion{
+
+    .item{
+        margin-bottom: 30px;
+    }
+
+    .title{
+        padding: 15px 50px 15px 0;
+        border-bottom: 1px solid rgba(255,255,255,.1);
+        cursor: pointer;
+        position: relative;
+
+        .ico{
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            width: 15px;
+            height: 1px;
+            transform: translateY(-50%);
+            background: #fff;
+        }
+    }
+
+    .accordion-info{
+        display: none;
+        margin-top: 30px;
+    }
+
+    .active{
+        display: block;
+
+        .title{
+
+            .ico{
+                
+                &:after{
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    width: 1px;
+                    height: 15px;
+                    transform: translateY(-50%);
+                    background: #fff;
+                }
+            }
+        }
+    }
+}
+
+/* ====================== [ End accordion ] ====================== */
