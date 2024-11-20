@@ -1,0 +1,168 @@
+/* ====================== [ Start blocks ] ====================== */
+.sec-half:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  background: #3b3f82;
+  z-index: 3;
+}
+
+.sec-half.botm-gray:before {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+  background: #fff0ef;
+}
+
+.sec-half .bg-img {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 80%;
+  bottom: 120px;
+}
+
+.sec-half .content {
+  color: #fff;
+  position: relative;
+  padding: 80px 0;
+  z-index: 5;
+}
+
+.sec-half .content p {
+  color: #fff;
+  opacity: .7;
+}
+
+.bluk {
+  border-radius: 50px;
+  margin-top: -50px;
+  position: relative;
+  z-index: 2;
+}
+
+.bluk .img {
+  position: absolute;
+  width: 50%;
+  top: 0;
+  right: 0;
+}
+
+.block-img .img {
+  position: relative;
+}
+
+.block-img .img .mg-1, .block-img .img .mg-2, .block-img .img .mg-3 {
+  -webkit-box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.block-img .img .mg-2, .block-img .img .mg-3 {
+  position: absolute;
+}
+
+.block-img .img .mg-2 {
+  left: -30px;
+  bottom: -30px;
+  width: 60%;
+}
+
+.block-img .img .mg-3 {
+  top: -50px;
+  right: 50px;
+  width: 150px;
+}
+
+.block-img .shad li {
+  position: relative;
+}
+
+.block-img .shad li:nth-child(even) {
+  -webkit-transform: translateX(50px);
+  -ms-transform: translateX(50px);
+  transform: translateX(50px);
+}
+
+.block-img .shad li .icon {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+
+.block-img .shad li .arow {
+  position: absolute;
+  top: calc(100% + 30px);
+  left: 5px;
+  width: 30px;
+  opacity: .3;
+}
+
+.block-img .shad li .arow.revs {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  left: auto;
+  right: 5px;
+}
+
+.clients-rate-img {
+  display: none;
+}
+
+.clients-rate-img .imgs .img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.clients-rate-img .imgs .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.wave-1 {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0;
+}
+
+.wave-1.top {
+  top: -5px;
+}
+
+.wave-1.bottom {
+  bottom: -5px;
+}
+
+.shape-out {
+  position: absolute;
+  width: 50vw;
+  height: 100vh;
+  top: -60vh;
+  z-index: -1;
+}
+
+.shape-out.left {
+  left: -10%;
+}
+
+.shape-out.huge-shape {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+/* ====================== [ End blocks ] ====================== */

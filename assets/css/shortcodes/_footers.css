@@ -1,0 +1,299 @@
+/* ====================== [ Start Footer ] ====================== */
+footer.wave-footer {
+  position: relative;
+  /* Animation */
+}
+
+footer.wave-footer:after {
+  content: '';
+  position: absolute;
+  top: 30%;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #f9fcfd;
+  z-index: -1;
+}
+
+footer.wave-footer .waves {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  z-index: -1;
+}
+
+footer.wave-footer .waves.bottom {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  top: auto;
+  bottom: 0;
+}
+
+footer.wave-footer .wave-paths use {
+  -webkit-animation: move-waves 10s ease-in-out infinite;
+  animation: move-waves 10s ease-in-out infinite;
+  fill: url(#wave-gradient);
+}
+
+footer.wave-footer .wave-paths use:nth-child(odd) {
+  animation-direction: reverse;
+  -webkit-animation-duration: 13s;
+  animation-duration: 13s;
+}
+
+footer.wave-footer .wave-paths use:nth-child(1) {
+  -webkit-animation-delay: -2s;
+  animation-delay: -2s;
+  opacity: .7;
+}
+
+footer.wave-footer .wave-paths use:nth-child(2) {
+  -webkit-animation-delay: -3s;
+  animation-delay: -3s;
+  opacity: .5;
+}
+
+footer.wave-footer .wave-paths use:nth-child(3) {
+  -webkit-animation-delay: -4s;
+  animation-delay: -4s;
+  opacity: .3;
+}
+
+footer.wave-footer .wave-paths use:nth-child(4) {
+  -webkit-animation-delay: -5s;
+  animation-delay: -5s;
+}
+
+@-webkit-keyframes move-waves {
+  0% {
+    -webkit-transform: translate3d(-30px, 0, 0);
+    transform: translate3d(-30px, 0, 0);
+  }
+  50% {
+    -webkit-transform: translate3d(30px, 0, 0);
+    transform: translate3d(30px, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-30px, 0, 0);
+    transform: translate3d(-30px, 0, 0);
+  }
+}
+
+@keyframes move-waves {
+  0% {
+    -webkit-transform: translate3d(-30px, 0, 0);
+    transform: translate3d(-30px, 0, 0);
+  }
+  50% {
+    -webkit-transform: translate3d(30px, 0, 0);
+    transform: translate3d(30px, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-30px, 0, 0);
+    transform: translate3d(-30px, 0, 0);
+  }
+}
+
+footer.main-footer .subscribe form {
+  position: relative;
+}
+
+footer.main-footer .subscribe form input {
+  width: 100%;
+  padding: 25px 30px;
+  padding-right: 210px;
+  background: #fff;
+  border: 0;
+  -webkit-box-shadow: 0px 10px 50px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 50px -10px rgba(0, 0, 0, 0.1);
+}
+
+footer.main-footer .subscribe form input::-webkit-input-placeholder {
+  opacity: .7;
+}
+
+footer.main-footer .subscribe form input:-ms-input-placeholder {
+  opacity: .7;
+}
+
+footer.main-footer .subscribe form input::-ms-input-placeholder {
+  opacity: .7;
+}
+
+footer.main-footer .subscribe form input::placeholder {
+  opacity: .7;
+}
+
+footer.main-footer .subscribe form button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 180px;
+  text-align: center;
+  border: 0;
+  border-left: 1px solid #eee;
+  padding: 25px 30px;
+}
+
+footer.main-footer .top-links ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer.main-footer .top-links ul li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+footer.main-footer .clumn .logo {
+  max-width: 100px;
+}
+
+footer.main-footer .clumn ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer.main-footer .clumn .social.circle-bord a {
+  border-color: #e3e3e3;
+  font-size: 12px;
+}
+
+footer.main-footer .clumn .rc-post li .img {
+  width: 120px;
+}
+
+footer.main-footer .clumn .rc-post li .cont {
+  width: 100%;
+  padding-left: 20px;
+}
+
+footer.main-footer .sub-footer {
+  border-top: 1px solid #eee;
+}
+
+footer.main-footer.dark-bg .sub-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer.gr-gray {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(transparent));
+  background: -webkit-linear-gradient(top, #f7f7f7, transparent);
+  background: -o-linear-gradient(top, #f7f7f7, transparent);
+  background: linear-gradient(to bottom, #f7f7f7, transparent);
+}
+
+footer.bg-dark-blue {
+  color: #fff;
+}
+
+footer.bg-dark-blue:before {
+  background: transparent;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(60%, #15171f), to(rgba(21, 23, 31, 0.8)));
+  background-image: -webkit-linear-gradient(bottom, #15171f 60%, rgba(21, 23, 31, 0.8) 100%);
+  background-image: -o-linear-gradient(bottom, #15171f 60%, rgba(21, 23, 31, 0.8) 100%);
+  background-image: linear-gradient(to top, #15171f 60%, rgba(21, 23, 31, 0.8) 100%);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  opacity: 1;
+}
+
+footer.bg-dark-blue .sub-footer {
+  padding-top: 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  z-index: 4;
+}
+
+footer .to-up {
+  position: relative;
+  top: -80px;
+  z-index: 4;
+}
+
+footer .call-action-banner {
+  padding: 60px 80px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 15px 50px 0px rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 15px 50px 0px rgba(0, 0, 0, 0.09);
+}
+
+footer .cal {
+  position: relative;
+  z-index: 1;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer .cal .butn-gr {
+  background: #fff;
+}
+
+footer .cal .butn-gr span {
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+}
+
+footer .cal .butn-gr:hover span {
+  color: #181818;
+}
+
+footer .sub-f {
+  padding: 60px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer .sub-f .logo {
+  width: 60px;
+}
+
+footer .logo {
+  max-width: 100px;
+}
+
+.footer-half {
+  background: #1c212a;
+  color: #fff;
+  position: relative;
+  margin-top: 80px;
+  z-index: 2;
+}
+
+.footer-half:after {
+  content: '';
+  position: absolute;
+  top: -80px;
+  right: 0;
+  bottom: 0;
+  width: 58%;
+  background: #1F242E;
+  z-index: -1;
+}
+
+.footer-half .left-half {
+  padding-right: 40px;
+}
+
+.footer-half .right-half {
+  padding-left: 10px;
+}
+
+.footer-half .right-half .logo {
+  width: 70px;
+}
+
+.footer-half .right-half .social a {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-half .right-half .cmp-links li,
+.footer-half .right-half .address li {
+  font-size: 15px;
+  opacity: .8;
+}
+
+/* ====================== [ End Footer ] ====================== */

@@ -1,0 +1,87 @@
+/* ====================== [ Start Colors Skin  ] ====================== */
+body.agency p {
+  color: #4d4d5f;
+  font-family: 'Poppins', sans-serif;
+}
+
+body.index-corporate {
+  color: #233d62;
+}
+
+body.index-corporate .skills-box .skill-progress .progres {
+  background: -webkit-linear-gradient(1deg, #ffcf6d, #fd8558);
+  background: -o-linear-gradient(1deg, #ffcf6d, #fd8558);
+  background: linear-gradient(-271deg, #ffcf6d, #fd8558);
+}
+
+body.startup .bg-gray {
+  background: #f7f7f7;
+}
+
+body.startup .butn.color {
+  background: #17be74;
+}
+
+body.startup .main-color {
+  color: #17be74;
+}
+
+body.cr-agency {
+  color: #3b3f82;
+}
+
+body.cr-agency p {
+  color: #5c5f82;
+}
+
+body.cr-agency .main-color {
+  color: #a5f2e0;
+}
+
+body.cr-agency .sub-color {
+  color: #3c4189;
+}
+
+body.cr-agency .bg-gray {
+  background: #fff0ef;
+}
+
+body.cr-agency .bg-blck {
+  background: #272b5f;
+}
+
+body.cr-agency [data-overlay-dark]:before {
+  background: #2c3467;
+}
+
+body.cr-agency .states ul .sd-color {
+  background: #a5f2e0;
+}
+
+body.cr-agency .states ul .sd-color span,
+body.cr-agency .states ul .sd-color h5 {
+  color: #3b3f82;
+}
+
+body.sass1 {
+  color: #15194a;
+}
+
+body.land-demo2 {
+  color: #1a2860;
+}
+
+body.land-demo2 p {
+  font-size: 15px;
+  color: #616075;
+}
+
+body.land-demo2 .bg-gray {
+  background: #f3f7f8;
+}
+
+body.index-main .bg-gray {
+  background: #fafafb;
+}
+
+/* ====================== [ End Colors Skin  ] ====================== */

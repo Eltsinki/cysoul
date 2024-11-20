@@ -1,0 +1,295 @@
+/* ====================== [ Start services ] ====================== */
+.services.to-up {
+  position: relative;
+  margin-top: -60px;
+  z-index: 4;
+}
+
+.services .item {
+  position: relative;
+}
+
+.services .item .icon {
+  padding: 25px;
+}
+
+.services .item .icon.bg-shape {
+  position: relative;
+}
+
+.services .item .icon.bg-shape .svg-shape {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.services .item .icon.bg-shape .icon-font {
+  position: relative;
+  z-index: 2;
+}
+
+.services .item.flex .icon-flex {
+  width: 80px;
+}
+
+.services .item.flex .icon-flex .icon {
+  padding: 0;
+  width: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.services .item .icon-img {
+  width: 80px;
+}
+
+.services .item h6 {
+  overflow: hidden;
+}
+
+.services .item h6 span {
+  -webkit-transform: translateX(-7px);
+  -ms-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+
+.services .item ul li {
+  padding-left: 25px;
+  position: relative;
+}
+
+.services .item ul li:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 10px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.services .item-box {
+  padding: 40px;
+}
+
+.services .item-box.shad {
+  -webkit-box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+}
+
+.services .item-box:hover .icon-bord-shad {
+  color: #fff;
+}
+
+.services .item-box:hover .icon-bord-shad i {
+  background: #3b3f82;
+}
+
+.services .icon-bord-shad {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  background: #fafafa;
+  position: relative;
+  border-radius: 50%;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+}
+
+.services .icon-bord-shad i {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: #fff;
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.06);
+  border-radius: 50%;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+}
+
+.services .icon-bord-shad span {
+  font-size: 28px;
+  position: relative;
+  line-height: inherit;
+  z-index: 2;
+}
+
+.services .icon-bord-shad.revers {
+  background: #fff;
+}
+
+.services .icon-bord-shad.revers i {
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.services .bord {
+  border: 1px solid #eee;
+  padding: 60px 40px;
+}
+
+.services .shadw {
+  background: #fff;
+  border-radius: 10px;
+  padding: 50px 40px;
+  -webkit-box-shadow: 0 20px 50px rgba(0, 5, 39, 0.07);
+  box-shadow: 0 20px 50px rgba(0, 5, 39, 0.07);
+}
+
+.services .shadw .icon {
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.services .rotate {
+  -webkit-perspective: 500px;
+  perspective: 500px;
+  padding: 0 60px 40px;
+  position: relative;
+  z-index: 2;
+}
+
+.services .rotate:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background: #fff;
+  z-index: -1;
+}
+
+.services .rotate.ri:after {
+  -webkit-transform: rotateY(-10deg);
+  transform: rotateY(-10deg);
+}
+
+.services .rotate.lf:after {
+  -webkit-transform: rotateY(10deg);
+  transform: rotateY(10deg);
+}
+
+.services .icon-out .icon {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  border-radius: 10px;
+  background: #fff;
+  margin-top: -40px;
+  margin-bottom: 60px;
+}
+
+.services.bg-light-gray .bord {
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+}
+
+.services.bg-light-gray .bord:hover, .services.bg-light-gray .bord.active {
+  background: #fff;
+  border-color: transparent;
+}
+
+.features-process .item .numb {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border: 1px solid #e8e8ee;
+  background: #fafafa;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.feat-land {
+  border-radius: 50px 50px 0 0;
+}
+
+.feat-circle-img .img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.feat-circle-img .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.feat-exp.bg-dark-blue {
+  position: relative;
+  z-index: 2;
+}
+
+.feat-exp.bg-dark-blue:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  background: #fff;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.feat-exp .text-bg-img {
+  background: url(../img/patterns/1.jpg);
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 110px;
+}
+
+.feat-exp .lg-text {
+  font-size: 120px;
+}
+
+.feat-item-img {
+  min-height: 400px;
+  padding: 30px;
+  position: relative;
+}
+
+.feat-item-img .num {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 2;
+}
+
+.feat-item-img .cont {
+  position: relative;
+  z-index: 2;
+}
+
+.flex .icon-flex {
+  margin-right: 30px;
+  margin-top: 5px;
+}
+
+.gr-simple {
+  background: -webkit-linear-gradient(130deg, rgba(122, 126, 149, 0.95) 0%, rgba(204, 209, 219, 0.95) 100%);
+  background: -o-linear-gradient(130deg, rgba(122, 126, 149, 0.95) 0%, rgba(204, 209, 219, 0.95) 100%);
+  background: linear-gradient(-40deg, rgba(122, 126, 149, 0.95) 0%, rgba(204, 209, 219, 0.95) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ====================== [ End services ] ====================== */

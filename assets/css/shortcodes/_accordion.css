@@ -1,0 +1,170 @@
+/* ====================== [ Start accordion ] ====================== */
+.accordion.bord .title {
+  border-bottom: 1px solid #eee;
+  padding-left: 0;
+}
+
+.accordion.bord .title:after {
+  left: auto;
+  right: 20px;
+}
+
+.accordion.bord .title .ico {
+  left: auto;
+  right: 25px;
+}
+
+.accordion.bord .accordion-info {
+  padding: 0;
+  margin-top: 15px;
+}
+
+.accordion.shadwo .item .title {
+  padding: 17px 30px;
+  border: 1px solid #e3e3e3;
+  border-radius: 30px;
+}
+
+.accordion.shadwo .item .title .ico {
+  left: auto;
+  right: 25px;
+}
+
+.accordion.shadwo .item .accordion-info {
+  margin-top: 20px;
+}
+
+.accordion.shadwo .item.active .title {
+  background: #f6f6ff;
+  border-color: transparent;
+}
+
+.accordion.box-shad .title {
+  padding: 30px 30px 20px;
+  border-radius: 0;
+  border-bottom: 1px solid rgba(150, 150, 150, 0.1);
+}
+
+.accordion.box-shad .accordion-info {
+  margin: 0;
+  padding: 0px 25px 30px;
+  border-left: 0 !important;
+}
+
+.accordion.box-shad .item {
+  margin-bottom: 0;
+}
+
+.accordion.box-shad .item.active {
+  background: rgba(150, 150, 150, 0.1);
+}
+
+.accordion.box-shad .item.active .title {
+  border-color: transparent;
+  background: transparent;
+}
+
+.accordion .item {
+  margin-bottom: 30px;
+}
+
+.accordion .title {
+  padding: 15px 30px 15px 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.accordion .title .ico {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  width: 15px;
+  height: 1px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background: #333;
+}
+
+.accordion .accordion-info {
+  display: none;
+  padding: 0px 30px;
+  margin-top: 30px;
+  border-left: 1px dotted rgba(255, 255, 255, 0.1);
+}
+
+.accordion .accordion-info .spac {
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+.accordion .accordion-info .spac h6 {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.accordion .accordion-info .spac h6:after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #555;
+  position: absolute;
+  top: 3px;
+  left: -15px;
+}
+
+.accordion .accordion-info .spac ul {
+  padding-left: 30px;
+}
+
+.accordion .accordion-info .spac li {
+  margin-bottom: 10px;
+  position: relative;
+  font-size: 15px;
+}
+
+.accordion .accordion-info .spac li:after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border: 1px solid #222;
+  border-radius: 50%;
+  position: absolute;
+  top: 9px;
+  left: -15px;
+}
+
+.accordion .active {
+  display: block;
+}
+
+.accordion .active .title {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.accordion .active .title .ico:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1px;
+  height: 15px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background: #333;
+}
+
+.bg-dark .accordion .title .ico,
+[data-overlay-dark] .accordion .title .ico {
+  background: #fff;
+}
+
+.bg-dark .accordion .title .ico:after,
+[data-overlay-dark] .accordion .title .ico:after {
+  background: #fff;
+}
+
+/* ====================== [ End accordion ] ====================== */

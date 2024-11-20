@@ -1,0 +1,156 @@
+/* ====================== [ Start Heading ] ====================== */
+.simple-head h6 {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+  opacity: .8;
+}
+
+.simple-head h4 {
+  font-size: 40px;
+}
+
+.sec-head .s-title {
+  margin-left: auto;
+}
+
+.sec-head .s-title h6 {
+  font-size: 12px;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sec-head .s-title h6 a {
+  line-height: 50px;
+}
+
+.sec-head .s-title h6 .icon {
+  font-size: 30px;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  margin-left: 20px;
+  opacity: .5;
+}
+
+.sec-head .s-title h6 .icon:after {
+  content: '';
+  width: 30px;
+  height: .5px;
+  background: #eee;
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.sec-head .s-title h6 .icon:hover:after {
+  width: 0;
+}
+
+.round-head h6 {
+  position: relative;
+  display: inline-block;
+  padding: 15px 40px;
+  z-index: 2;
+}
+
+.round-head h6 span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  background-color: #233d62;
+  opacity: .05;
+  z-index: -1;
+}
+
+.round-head h6 .dot {
+  position: absolute;
+  top: calc(50% - 3px);
+  left: 25px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #233d62;
+}
+
+.sub-title {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.sub-title.bg {
+  display: inline-block;
+  padding: 7px 15px;
+  border-radius: 30px;
+  background: rgba(23, 190, 113, 0.3);
+}
+
+.line-head {
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.line-head:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  z-index: -1;
+}
+
+.line-head h6 {
+  display: inline-block;
+  background: #fff;
+  padding: 0 50px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.sub-head {
+  display: inline-block;
+  padding: 5px 10px;
+  background: #E9EEF4;
+  font-size: 14px;
+}
+
+.sub-head.curve {
+  border-radius: 5px;
+}
+
+.sub-head.radius {
+  border-radius: 30px;
+  padding: 8px 20px;
+}
+
+.head-underline {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #999;
+}
+
+.s-title .icon {
+  position: relative;
+  top: 3px;
+}
+
+/* ====================== [ End Heading ] ====================== */
