@@ -64,7 +64,9 @@
 
 @media screen and (min-width: 1400px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    max-width: 1320px; } }
+    overflow: hidden;
+    max-width: 1320px; 
+    } }
 
 @media screen and (min-width: 1200px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl {
@@ -583,9 +585,18 @@ main {
   height: 5px;
   z-index: 10000001;
   background-color: #ff7425;
-  -webkit-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
-  -o-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
-  transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out; }
+  -webkit-transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ opacity .3s ease-in-out;
+  -o-transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ opacity .3s ease-in-out;
+  transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ opacity .3s ease-in-out; }
   .cursor-inner.cursor-hover {
     opacity: 0; }
   .cursor-inner.cursor-scroll {
@@ -608,9 +619,21 @@ main {
   box-sizing: border-box;
   opacity: .5;
   z-index: 10000000;
-  -webkit-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, background-color .3s, opacity .3s;
-  -o-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, background-color .3s, opacity .3s;
-  transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, background-color .3s, opacity .3s; }
+  -webkit-transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ background-color .3s,
+ opacity .3s;
+  -o-transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ background-color .3s,
+ opacity .3s;
+  transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ background-color .3s,
+ opacity .3s; }
   .cursor-outer.cursor-hover {
     margin-left: -40px;
     margin-top: -40px;
@@ -1676,9 +1699,12 @@ main {
       font-size: 50px;
       opacity: 0;
       visibility: hidden;
-      -webkit-transition: opacity .5s, visibility .5s;
-      -o-transition: opacity .5s, visibility .5s;
-      transition: opacity .5s, visibility .5s; }
+      -webkit-transition: opacity .5s,
+ visibility .5s;
+      -o-transition: opacity .5s,
+ visibility .5s;
+      transition: opacity .5s,
+ visibility .5s; }
     .slider .parallax-slider .caption p {
       color: #eee;
       margin-top: 15px;
@@ -2591,7 +2617,7 @@ header .arrow-down {
     object-fit: cover; }
 
 .work-rand-width .swiper-container {
-  overflow: visible; }
+  overflow: hidden; }
 
 .work-rand-width .swiper-slide {
   width: 50% !important; }
